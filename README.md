@@ -8,6 +8,7 @@
 
 ## 目录
 
+```mddir
 |-- root
     |-- .gitignore
     |-- package.json
@@ -44,3 +45,4 @@
             |   |-- item.jsx
             |-- commons-list
                 |-- list.jsx
+```
