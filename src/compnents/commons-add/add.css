@@ -1,0 +1,48 @@
+.add-container {
+  width: 100%;
+  height: auto; }
+  .add-container .add-form-submit {
+    width: 80%; }
+    .add-container .add-form-submit button {
+      margin-top: 10px;
+      width: 80px;
+      outline: none;
+      height: 35px;
+      background-color: #646464;
+      color: white;
+      border: none;
+      text-align: center; }
+      .add-container .add-form-submit button:active {
+        -webkit-box-shadow: inset 0 0 3px white;
+        -moz-box-shadow: inset 0 0 3px white;
+        box-shadow: inset  0 0 3px white; }
+  .add-container .add-form-uname, .add-container .add-form-content {
+    width: 100%; }
+    .add-container .add-form-uname label, .add-container .add-form-content label {
+      font-weight: bold;
+      font-size: 12px;
+      display: block;
+      margin-bottom: 10px;
+      margin-top: 15px; }
+    .add-container .add-form-uname input, .add-container .add-form-uname-textarea, .add-container .add-form-content input, .add-container .add-form-content-textarea {
+      background-color: transparent;
+      border: 1px solid #ddd;
+      width: 80%;
+      height: 30px;
+      padding: 5px;
+      outline: none;
+      transition: .5s;
+      border-radius: 2px;
+      font-size: 12px; }
+    .add-container .add-form-uname input:focus, .add-container .add-form-uname-textarea:focus, .add-container .add-form-content input:focus, .add-container .add-form-content-textarea:focus {
+      -webkit-box-shadow: 0 0 2px #07f;
+      -moz-box-shadow: 0 0 2px #07f;
+      box-shadow: 0 0 2px #07f; }
+    .add-container .add-form-uname .add-form-content-textarea, .add-container .add-form-content .add-form-content-textarea {
+      height: 100px; }
+
+@media all and (max-width: 400px) {
+  input, .add-form-content-textarea {
+    width: 95% !important; } }
+
+/*# sourceMappingURL=add.css.map */
